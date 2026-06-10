@@ -2,7 +2,7 @@
 
 # Data Quest: Mastering Python Collections
 
-🎮 **Repository Description** A game analytics platform mastering Python collections, generators, and comprehensions under strict flake8 and mypy standards.
+🎮 **Description:** A game analytics platform mastering Python collections, generators, and comprehensions under strict flake8 and mypy standards.
 
 ---
 
