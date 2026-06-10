@@ -4,8 +4,6 @@
 
 🎮 **Repository Description** A game analytics platform mastering Python collections, generators, and comprehensions under strict flake8 and mypy standards.
 
-📌 **GitHub Topics** `python3` `data-engineering` `42network` `42madrid` `data-structures` `python-collections` `game-analytics` `generators` `list-comprehension` `dictionary-comprehension` `clean-code` `mypy` `flake8` `backend-development`
-
 ---
 
 ## 📖 Project Overview
@@ -18,7 +16,7 @@ By simulating data ingestion pipelines—such as real-time player score streams,
 
 ## 🛠️ Tech Stack & Standards
 
-* **Language**: Python 3.10+
+* **Language**: Python 3.12.3
 * **Static Analysis**: Strict type hinting verified with `mypy`
 * **Linter Compliance**: PEP 8 styling enforced via `flake8`
 * **Environment Constraints**: Pure in-memory processing and deferred execution loops. No external non-standard libraries or unauthorized file I/O operations.
