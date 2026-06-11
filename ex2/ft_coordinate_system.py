@@ -31,3 +31,22 @@ def get_player_pos():
                     break
 
 
+def calculate_distance(p1, p2=(0.0, 0.0, 0.0)):
+    dx = p2[0] - p1[0]
+    dy = p2[1] - p1[1]
+    dz = p2[2] - p1[2]
+    return math.sqrt(dx**2 + dy**2 + dz**2)
+
+
+if __name__ == "__main__":
+    print("=== Game Coordinate System ===")
+    print("Get a first set of coordinates")
+    point1 = get_player_pos()
+    print(f"Got a first tuple: {point1}")
+    print(f"It includes: X={point1[0]}, Y={point1[1]}, Z={point1[2]}")
+    dist_center = calculate_distance(point1)
+    print(f"Distance to center: {round(dist_center, 4)}")
+    print("Get a second set of coordinates")
+    point2 = get_player_pos()
+    dist_between = calculate_distance(point1, point2)
+    print(f"Distance between the 2 sets of coordinates: {round(dist_between, 4)}")
