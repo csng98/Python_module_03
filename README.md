@@ -1,4 +1,4 @@
-*A project for the 42 Network curriculum exploring advanced data structure manipulation, collections efficiency, and memory optimization.*
+*A project for the 42 Madrid curriculum exploring advanced data structure manipulation, collections efficiency, and memory optimization.*
 
 # Data Quest: Mastering Python Collections
 
