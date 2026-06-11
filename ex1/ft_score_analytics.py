@@ -10,7 +10,7 @@ if __name__ == "__main__":
     for arg in sys.argv[1:]:
         try:
             num = int(arg)
-            valid_scores = valid_scores + [num]    
+            valid_scores = valid_scores + [num]
         except ValueError:
             print(f"Invalid parameter: '{arg}'")
     if len(valid_scores) == 0:
