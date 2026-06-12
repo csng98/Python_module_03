@@ -6,7 +6,7 @@ if __name__ == "__main__":
     if len(sys.argv) == 1:
         print("No scores provided. Usage: python3 ft_score_analytics.py ...")
         sys.exit()
-    valid_scores = []
+    valid_scores: list[int] = []
     for arg in sys.argv[1:]:
         try:
             num = int(arg)

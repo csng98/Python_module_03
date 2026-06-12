@@ -49,4 +49,5 @@ if __name__ == "__main__":
     print("Get a second set of coordinates")
     point2 = get_player_pos()
     dist_between = calculate_distance(point1, point2)
-    print(f"Distance between the 2 sets of coordinates: {round(dist_between, 4)}")
+    print(f"Distance between the 2 sets of coordinates: "
+          f"{round(dist_between, 4)}")
